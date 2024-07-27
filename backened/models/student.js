@@ -28,10 +28,10 @@ const userSchema = new mongoose.Schema({
 
     interests:{
         type: [String],
-        required: true
+        required: false
     },
     
 
 });
 
-module.exports = mongoose.model('User',userSchema);
+module.exports = mongoose.model('Student',userSchema);

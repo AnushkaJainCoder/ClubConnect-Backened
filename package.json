@@ -1,0 +1,22 @@
+{
+  "name": "clubconnect-backened",
+  "version": "1.0.0",
+  "description": "Club Connect for increasing awareness and enhancing student engagement in college clubs and societies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnushkaJainCoder/ClubConnect-Backened.git"
+  },
+  "author": "Dr.Anushka Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnushkaJainCoder/ClubConnect-Backened/issues"
+  },
+  "homepage": "https://github.com/AnushkaJainCoder/ClubConnect-Backened#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

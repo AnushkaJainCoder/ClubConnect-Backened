@@ -19,3 +19,15 @@ exports.createClub = async (req,res) =>{
         res.status(400).json({message: err.message});
     }
 }
+
+exports.getClubs = async(req,res) => {
+    try{
+        const clubs = await club.find();
+        res.status(200).json(clubs);
+    }catch(err){
+        res.status(500).json({message: err.message});
+    }
+    
+   
+    // res.sen
+}

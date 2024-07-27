@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const event = require('./event')
 
 const clubSchema = new mongoose.Schema({
     clubName: {
@@ -20,7 +21,12 @@ const clubSchema = new mongoose.Schema({
     details:{
         type: String,
         required: true
+    }, 
+    events: {
+        type: [event],
+        required: false
     }
+
     
 
 

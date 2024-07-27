@@ -15,8 +15,10 @@ mongoose.connect(process.env.MONGODB_URI, {
 .catch(err => console.log(err));
 
 const studentRoutes = require('./backened/routes/studentRoute'); // Ensure the correct path
-
+const clubRoutes = require('./backened/routes/clubRoute');
 app.use('/api/students', studentRoutes);
+app.use('/api/clubs', clubRoutes);
+
 
 
 module.exports = app;
